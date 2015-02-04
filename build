@@ -21,7 +21,7 @@ cat wp-content/plugins/contact-form-7/styles.css                 >> wp-content/e
 #Форма - низ страницы
 
 cp wp-content/plugins/contact-form-7/scripts.js?ver=3.0.2.1 wp-content/plugins/contact-form-7/scripts.js
-./compress wp-content/plugins/contact-form-7/scripts.js
+./compress wp-content/plugins/contact-form-7/scripts.js wp-content/plugins/contact-form-7/scripts.min.js
 
 cp wp-content/plugins/contact-form-7/jquery.form.js?ver=2.52 wp-content/plugins/contact-form-7/jquery.form.js
 ./compress wp-content/plugins/contact-form-7/jquery.form.js wp-content/plugins/contact-form-7/jquery.form.min.js
