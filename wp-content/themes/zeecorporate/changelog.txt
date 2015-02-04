@@ -1,0 +1,25 @@
+===================================
+zeeCorporate Changelog
+===================================
+
+Version 1.0.9
+-----------------------------------
+- little bugfix for navigation dropdown
+
+Version 1.0.8
+-----------------------------------
+- added Google+ to SocialMedia Buttons
+- increased timeout for Slideshow
+- renamed custom page templates
+
+Version 1.0.7
+-----------------------------------
+- added 'Page with Slider' page template
+- replace the constant ZEE_LANG with 'themezee_lang' string for translation
+- fixed displaying text elements in comments (lists, blockquotes)
+- added new css styles for theme option panel
+- added settings updated info at theme option panel
+
+Version 1.0.6
+-----------------------------------
+Final Version

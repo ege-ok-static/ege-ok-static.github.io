@@ -1,0 +1,28 @@
+a, a:link, a:visited{
+	color: #b10092;
+}
+#sidebar ul li h2,
+#twitter_div a:link, #twitter_div a:visited  {
+	color: #b10092 !important;
+}
+#navi ul li.current_page_item a, #navi ul li.current-cat a, #navi ul li.current-menu-item a{
+	color: #b10092;
+}
+#tabs_navi li a:hover, #tabs_navi li a:active, #tabs_navi li.ui-tabs-selected a {
+	color: #b10092 !important;
+}
+.post h2, .attachment h2, .post h2 a:link, .post h2 a:visited {
+	color: #b10092;
+}
+#slideshow .post h2 a{  
+    color: #b10092;
+}
+.comment-author .fn, .comment-reply-link {
+	color: #b10092 !important;
+}
+.wp-pagenavi .current {
+    color: #b10092;
+}
+#slide_keys a:link, #slide_keys a:visited {
+	color: #b10092 !important;
+}
