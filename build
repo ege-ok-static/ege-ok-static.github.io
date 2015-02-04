@@ -1,0 +1,48 @@
+#!/bin/bash
+
+#CSS
+
+cp wp-content/themes/zeecorporate/includes/styles/darkgreen.css?ver=3.2.1 wp-content/themes/zeecorporate/includes/styles/darkgreen.css
+./compress wp-content/themes/zeecorporate/includes/styles/darkgreen.css wp-content/themes/zeecorporate/includes/styles/darkgreen.min.css
+
+cp wp-content/themes/zeecorporate/style.css?ver=3.2.1 wp-content/themes/zeecorporate/style.css
+./compress wp-content/themes/zeecorporate/style.css wp-content/themes/zeecorporate/style.min.css
+
+cp wp-content/plugins/contact-form-7/styles.css?ver=3.0.2.1 wp-content/plugins/contact-form-7/styles.css
+./compress wp-content/plugins/contact-form-7/styles.css wp-content/plugins/contact-form-7/styles.min.css
+
+cat wp-content/themes/zeecorporate/includes/styles/darkgreen.css  > wp-content/ege-ok-common.css
+cat wp-content/themes/zeecorporate/style.css                     >> wp-content/ege-ok-common.css
+cat wp-content/plugins/contact-form-7/styles.css                 >> wp-content/ege-ok-common.css
+./compress wp-content/ege-ok-common.css wp-content/ege-ok-common.min.css
+
+#JS
+
+#Форма - низ страницы
+
+cp wp-content/plugins/contact-form-7/scripts.js?ver=3.0.2.1 wp-content/plugins/contact-form-7/scripts.js
+./compress wp-content/plugins/contact-form-7/scripts.js
+
+cp wp-content/plugins/contact-form-7/jquery.form.js?ver=2.52 wp-content/plugins/contact-form-7/jquery.form.js
+./compress wp-content/plugins/contact-form-7/jquery.form.js wp-content/plugins/contact-form-7/jquery.form.min.js
+
+cat wp-content/plugins/contact-form-7/scripts.js wp-content/plugins/contact-form-7/jquery.form.js > wp-content/plugins/contact-form-7/united.js
+./compress wp-content/plugins/contact-form-7/united.js wp-content/plugins/contact-form-7/united.min.js
+
+#Верх страницы
+
+cp wp-content/themes/zeecorporate/includes/js/jquery.slidemenu.js?ver=3.2.1 wp-content/themes/zeecorporate/includes/js/jquery.slidemenu.js
+./compress wp-content/themes/zeecorporate/includes/js/jquery.slidemenu.js wp-content/themes/zeecorporate/includes/js/jquery.slidemenu.min.js
+
+cp wp-content/themes/zeecorporate/includes/js/jquery.cycle.all.min.js?ver=3.2.1 wp-content/themes/zeecorporate/includes/js/jquery.cycle.all.min.js
+
+cp wp-includes/js/l10n.js?ver=20101110 wp-includes/js/l10n.js
+
+cp wp-includes/js/jquery/jquery.js?ver=1.6.1 wp-includes/js/jquery/jquery.js
+
+cp wp-includes/js/comment-reply.js?ver=20090102 wp-includes/js/comment-reply.js
+
+cp wp-content/themes/zeecorporate/includes/js/jquery-ui-1.8.11.custom.min.js?ver=3.2.1 wp-content/themes/zeecorporate/includes/js/jquery-ui-1.8.11.custom.min.js
+
+cp wp-content/themes/zeecorporate/includes/js/jquery.easing.1.3.js?ver=3.2.1 wp-content/themes/zeecorporate/includes/js/jquery.easing.1.3.js
+./compress wp-content/themes/zeecorporate/includes/js/jquery.easing.1.3.js wp-content/themes/zeecorporate/includes/js/jquery.easing.1.3.min.js
